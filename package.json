@@ -1,0 +1,24 @@
+{
+  "name": "starting_file",
+  "version": "1.0.0",
+  "description": "Wesh alors :)",
+  "main": "js.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "sass": "sass --watch ./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KobeKenjo/basic_project_file.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KobeKenjo/basic_project_file/issues"
+  },
+  "homepage": "https://LeoVrfb.github.io/coronagame-js-vanilla",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
